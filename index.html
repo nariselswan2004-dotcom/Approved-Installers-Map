@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36d6b7d636ce9a3285b33753cec55ca2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_36d6b7d636ce9a3285b33753cec55ca2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_36d6b7d636ce9a3285b33753cec55ca2 = L.map(
+                "map_36d6b7d636ce9a3285b33753cec55ca2",
+                {
+                    center: [52.4, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": [
+[
+49.8,
+-8.5,
+],
+[
+56.0,
+1.8,
+],
+],
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68b10ef4d311b7f454cc9498afc61a77 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68b10ef4d311b7f454cc9498afc61a77.addTo(map_36d6b7d636ce9a3285b33753cec55ca2);
+        
+    
+            map_36d6b7d636ce9a3285b33753cec55ca2.fitBounds(
+                [[49.8, -8.5], [56.0, 1.8]],
+                {}
+            );
+        
+    
+            var marker_cluster_9a3b96fd008f2be39d24827617ac757c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_550f0556db837b60bfdd7356acfee737 = L.marker(
+                [51.7412089, 0.5059652],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_422c90ddafa5ca4bddaec907496cd41c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b535b06b283d033929ae3d50bc84c694 = $(`<div id="html_b535b06b283d033929ae3d50bc84c694" style="width: 100.0%; height: 100.0%;">     <b>A and M Energy Solutions Ltd</b><br>     <a href="https://www.am-energy.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_422c90ddafa5ca4bddaec907496cd41c.setContent(html_b535b06b283d033929ae3d50bc84c694);
+            
+        
+
+        marker_550f0556db837b60bfdd7356acfee737.bindPopup(popup_422c90ddafa5ca4bddaec907496cd41c)
+        ;
+
+        
+    
+    
+            var marker_47c7f595ab08cb3d1e9b0aa58a473f1a = L.marker(
+                [51.2839, -2.28141],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_ecdf0c9f5895bcc607aa03a05a8ce48d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccef954e0bc2708be0454992c4070a6c = $(`<div id="html_ccef954e0bc2708be0454992c4070a6c" style="width: 100.0%; height: 100.0%;">     <b>Alto Energy Ltd</b><br>     <a href="https://www.altoenergy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_ecdf0c9f5895bcc607aa03a05a8ce48d.setContent(html_ccef954e0bc2708be0454992c4070a6c);
+            
+        
+
+        marker_47c7f595ab08cb3d1e9b0aa58a473f1a.bindPopup(popup_ecdf0c9f5895bcc607aa03a05a8ce48d)
+        ;
+
+        
+    
+    
+            var marker_d244f9976b86e660f032d8607d2dd559 = L.marker(
+                [53.248012, -4.302847],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_7339464e41be6870a8afae7c41678359 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fa3fd1a2a6e47cc1a233d83cf03032e = $(`<div id="html_0fa3fd1a2a6e47cc1a233d83cf03032e" style="width: 100.0%; height: 100.0%;">     <b>Anglesey Solar and Electrical</b><br>     <a href="https://www.angleseysolar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_7339464e41be6870a8afae7c41678359.setContent(html_0fa3fd1a2a6e47cc1a233d83cf03032e);
+            
+        
+
+        marker_d244f9976b86e660f032d8607d2dd559.bindPopup(popup_7339464e41be6870a8afae7c41678359)
+        ;
+
+        
+    
+    
+            var marker_07725e6af850a12889ba030e85802c1d = L.marker(
+                [52.141609, -4.444304],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_8146dc33c226ac1b3f132d0c5e9e7f27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fa380c73ee1f471f8984c0dca4d01e5 = $(`<div id="html_1fa380c73ee1f471f8984c0dca4d01e5" style="width: 100.0%; height: 100.0%;">     <b>Barri Davies Electical Ltd</b><br>     <a href="https://bdelectrical.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_8146dc33c226ac1b3f132d0c5e9e7f27.setContent(html_1fa380c73ee1f471f8984c0dca4d01e5);
+            
+        
+
+        marker_07725e6af850a12889ba030e85802c1d.bindPopup(popup_8146dc33c226ac1b3f132d0c5e9e7f27)
+        ;
+
+        
+    
+    
+            var marker_cea54139b8ed6357c6722ccf0fb7a1cc = L.marker(
+                [51.880228, -4.099098],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a51c1b036bd8e23b5301db3aefd94e66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_534e05030fef1dfb9e0d45549a3f9cc6 = $(`<div id="html_534e05030fef1dfb9e0d45549a3f9cc6" style="width: 100.0%; height: 100.0%;">     <b>Birdshill Biomass Ltds</b><br>     <a href="https://birdshill.wales/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a51c1b036bd8e23b5301db3aefd94e66.setContent(html_534e05030fef1dfb9e0d45549a3f9cc6);
+            
+        
+
+        marker_cea54139b8ed6357c6722ccf0fb7a1cc.bindPopup(popup_a51c1b036bd8e23b5301db3aefd94e66)
+        ;
+
+        
+    
+    
+            var marker_e19fa7f5525f6bb754c7bac23aa19b74 = L.marker(
+                [52.663817, -3.139057],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_b004c7c1b5ae5db1b3b708461c1d6b58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82397b888a040621f5a6a9c3eccf5745 = $(`<div id="html_82397b888a040621f5a6a9c3eccf5745" style="width: 100.0%; height: 100.0%;">     <b>Blake Jones Solar & Electrical Ltdt</b><br>     <a href="https://blakejoneselectrical.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_b004c7c1b5ae5db1b3b708461c1d6b58.setContent(html_82397b888a040621f5a6a9c3eccf5745);
+            
+        
+
+        marker_e19fa7f5525f6bb754c7bac23aa19b74.bindPopup(popup_b004c7c1b5ae5db1b3b708461c1d6b58)
+        ;
+
+        
+    
+    
+            var marker_379503390ae5a9918747cc690016158b = L.marker(
+                [53.796838, -1.426444],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_d67e6f330945b68ce96a6d24ad320bb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8da8df034a242c8183f63d0c4430830e = $(`<div id="html_8da8df034a242c8183f63d0c4430830e" style="width: 100.0%; height: 100.0%;">     <b>BOXT Limited</b><br>     <a href="https://www.boxt.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_d67e6f330945b68ce96a6d24ad320bb5.setContent(html_8da8df034a242c8183f63d0c4430830e);
+            
+        
+
+        marker_379503390ae5a9918747cc690016158b.bindPopup(popup_d67e6f330945b68ce96a6d24ad320bb5)
+        ;
+
+        
+    
+    
+            var marker_f3019fb414fdadbc4e2ddbcf55d3800c = L.marker(
+                [51.847826, -4.335772],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_d72ead0bc2d7627eedbb22cc0de5a33c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a35bbea943b2a254309f0b4669eb5a7 = $(`<div id="html_5a35bbea943b2a254309f0b4669eb5a7" style="width: 100.0%; height: 100.0%;">     <b>Brolec Solar Services Ltd</b><br>     <a href="https://brolec.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_d72ead0bc2d7627eedbb22cc0de5a33c.setContent(html_5a35bbea943b2a254309f0b4669eb5a7);
+            
+        
+
+        marker_f3019fb414fdadbc4e2ddbcf55d3800c.bindPopup(popup_d72ead0bc2d7627eedbb22cc0de5a33c)
+        ;
+
+        
+    
+    
+            var marker_02f47566b76eca15aabda8dc4992b349 = L.marker(
+                [51.684489, -3.030533],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_bcef0acd4d5b7ce6449647a343169d19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95cae119f773ad6c127cc9b5844af715 = $(`<div id="html_95cae119f773ad6c127cc9b5844af715" style="width: 100.0%; height: 100.0%;">     <b>BS Renewables Ltd</b><br>     <a href="https://bsrenewables.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_bcef0acd4d5b7ce6449647a343169d19.setContent(html_95cae119f773ad6c127cc9b5844af715);
+            
+        
+
+        marker_02f47566b76eca15aabda8dc4992b349.bindPopup(popup_bcef0acd4d5b7ce6449647a343169d19)
+        ;
+
+        
+    
+    
+            var marker_0f1bc19923706b1e2e74e610308a0832 = L.marker(
+                [53.253474, -3.480824],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_90c62fca704b305c51641c80ae7ff649 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_638bc271111436ca89a611033231597a = $(`<div id="html_638bc271111436ca89a611033231597a" style="width: 100.0%; height: 100.0%;">     <b>Carbon Zero Renewables Ltd</b><br>     <a href="https://www.carbonzerorenewables.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_90c62fca704b305c51641c80ae7ff649.setContent(html_638bc271111436ca89a611033231597a);
+            
+        
+
+        marker_0f1bc19923706b1e2e74e610308a0832.bindPopup(popup_90c62fca704b305c51641c80ae7ff649)
+        ;
+
+        
+    
+    
+            var marker_1bfcd895f6c5c8ac59e8627b54df52ad = L.marker(
+                [51.818855, 1.16747],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_8fcee860dde112c1d8c079bc3c5df3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03eff1082537fa8556ed005e337e2330 = $(`<div id="html_03eff1082537fa8556ed005e337e2330" style="width: 100.0%; height: 100.0%;">     <b>CB Heating Ltd</b><br>     <a href="https://www.cbheating.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_8fcee860dde112c1d8c079bc3c5df3b2.setContent(html_03eff1082537fa8556ed005e337e2330);
+            
+        
+
+        marker_1bfcd895f6c5c8ac59e8627b54df52ad.bindPopup(popup_8fcee860dde112c1d8c079bc3c5df3b2)
+        ;
+
+        
+    
+    
+            var marker_93e51d13274bc6555ecf90ceeae3393f = L.marker(
+                [51.80645, -4.07758],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_6ba9d522d770c0d89a2a3bbcf0acb3d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffa0cedc86a167cf300c53f00988ff37 = $(`<div id="html_ffa0cedc86a167cf300c53f00988ff37" style="width: 100.0%; height: 100.0%;">     <b>Celtic Green Energy Ltd</b><br>     <a href="https://celticgreenenergy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_6ba9d522d770c0d89a2a3bbcf0acb3d7.setContent(html_ffa0cedc86a167cf300c53f00988ff37);
+            
+        
+
+        marker_93e51d13274bc6555ecf90ceeae3393f.bindPopup(popup_6ba9d522d770c0d89a2a3bbcf0acb3d7)
+        ;
+
+        
+    
+    
+            var marker_6145caa37ca66b4fdd3adcaaa1156923 = L.marker(
+                [51.477445, -3.412743],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_4ebb14e6b1a83bff241d020ca6dde503 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58066f565d6eb137707f6907fd0bc237 = $(`<div id="html_58066f565d6eb137707f6907fd0bc237" style="width: 100.0%; height: 100.0%;">     <b>CMC Electricals Ltd</b><br>     <a href="https://www.cmcelectrics.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_4ebb14e6b1a83bff241d020ca6dde503.setContent(html_58066f565d6eb137707f6907fd0bc237);
+            
+        
+
+        marker_6145caa37ca66b4fdd3adcaaa1156923.bindPopup(popup_4ebb14e6b1a83bff241d020ca6dde503)
+        ;
+
+        
+    
+    
+            var marker_599ef33983bd2ac4d1fb943d8717d0dd = L.marker(
+                [51.652447, -3.916044],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_79e31222aea558c7d1410e2e8429a543 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b00c5e88f569dd27476b1141da0e7e2 = $(`<div id="html_8b00c5e88f569dd27476b1141da0e7e2" style="width: 100.0%; height: 100.0%;">     <b>Consumer Energy Solutions Ltd</b><br>     <a href="https://www.consumerenergysolutions.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_79e31222aea558c7d1410e2e8429a543.setContent(html_8b00c5e88f569dd27476b1141da0e7e2);
+            
+        
+
+        marker_599ef33983bd2ac4d1fb943d8717d0dd.bindPopup(popup_79e31222aea558c7d1410e2e8429a543)
+        ;
+
+        
+    
+    
+            var marker_d1bd2ddb9c71665ac86b9bf2e40db4b2 = L.marker(
+                [53.686712, -2.66735],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_18a454b00d7120534905515b9d0580b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bdb52044459e4ae89b93e1b01a569bf = $(`<div id="html_6bdb52044459e4ae89b93e1b01a569bf" style="width: 100.0%; height: 100.0%;">     <b>Contact Solar LTD</b><br>     <a href="https://contact-solar.co.uk/installers-near-you/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_18a454b00d7120534905515b9d0580b2.setContent(html_6bdb52044459e4ae89b93e1b01a569bf);
+            
+        
+
+        marker_d1bd2ddb9c71665ac86b9bf2e40db4b2.bindPopup(popup_18a454b00d7120534905515b9d0580b2)
+        ;
+
+        
+    
+    
+            var marker_46dbdb8bfe427b6d98a612a5d28108ea = L.marker(
+                [51.623507, -3.827636],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_9325bc1376d7db14bdc8afe130d646d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0abbc748a1449500033b870ed8de3851 = $(`<div id="html_0abbc748a1449500033b870ed8de3851" style="width: 100.0%; height: 100.0%;">     <b>Direct Market Solutions Limited T/A Blue Electrics</b><br>     <a href="https://www.blueelectrics.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_9325bc1376d7db14bdc8afe130d646d8.setContent(html_0abbc748a1449500033b870ed8de3851);
+            
+        
+
+        marker_46dbdb8bfe427b6d98a612a5d28108ea.bindPopup(popup_9325bc1376d7db14bdc8afe130d646d8)
+        ;
+
+        
+    
+    
+            var marker_503e6a190fd2bd1b98bf39706fabfe1e = L.marker(
+                [53.020944, -3.387552],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a081d354e33bbaed4b3a5cbd5cfa99cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_710875fa933c28d5b7fe7f4fccc1b2c0 = $(`<div id="html_710875fa933c28d5b7fe7f4fccc1b2c0" style="width: 100.0%; height: 100.0%;">     <b>Dragon Renewable Energy Ltd</b><br>     <a href="https://www.dragonrenewableenergy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a081d354e33bbaed4b3a5cbd5cfa99cc.setContent(html_710875fa933c28d5b7fe7f4fccc1b2c0);
+            
+        
+
+        marker_503e6a190fd2bd1b98bf39706fabfe1e.bindPopup(popup_a081d354e33bbaed4b3a5cbd5cfa99cc)
+        ;
+
+        
+    
+    
+            var marker_0ca68fda9e9cabd10d934a9622907cdf = L.marker(
+                [54.971047, -1.605286],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_fd015f6937d517d57af6d132d8e4ef42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5ea7d863b745e9a52b32bb812ae205b = $(`<div id="html_f5ea7d863b745e9a52b32bb812ae205b" style="width: 100.0%; height: 100.0%;">     <b>Eco Funding For Homes Ltd</b><br>     <a href="https://www.heatergrants.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_fd015f6937d517d57af6d132d8e4ef42.setContent(html_f5ea7d863b745e9a52b32bb812ae205b);
+            
+        
+
+        marker_0ca68fda9e9cabd10d934a9622907cdf.bindPopup(popup_fd015f6937d517d57af6d132d8e4ef42)
+        ;
+
+        
+    
+    
+            var marker_d6491607e89b5777f29a14c38fcfa7df = L.marker(
+                [50.840575, -1.189129],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_e988734247f4962c4d8c75fea79e3ae1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcf46692d124424789d7cce001802f09 = $(`<div id="html_bcf46692d124424789d7cce001802f09" style="width: 100.0%; height: 100.0%;">     <b>Eco Home UK Group Ltd</b><br>     <a href="https://ecohomeuk.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_e988734247f4962c4d8c75fea79e3ae1.setContent(html_bcf46692d124424789d7cce001802f09);
+            
+        
+
+        marker_d6491607e89b5777f29a14c38fcfa7df.bindPopup(popup_e988734247f4962c4d8c75fea79e3ae1)
+        ;
+
+        
+    
+    
+            var marker_85b6eef07961334b601d51e6acdbb523 = L.marker(
+                [53.543704, -1.098183],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_afc0c2103529d662c9579a774d52bc4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f7d53b2bb33c5e808d8946a12b2e986 = $(`<div id="html_0f7d53b2bb33c5e808d8946a12b2e986" style="width: 100.0%; height: 100.0%;">     <b>Effective Home Ltd</b><br>     <a href="https://effectivehome.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_afc0c2103529d662c9579a774d52bc4f.setContent(html_0f7d53b2bb33c5e808d8946a12b2e986);
+            
+        
+
+        marker_85b6eef07961334b601d51e6acdbb523.bindPopup(popup_afc0c2103529d662c9579a774d52bc4f)
+        ;
+
+        
+    
+    
+            var marker_984e2142622f1353550a570d16139339 = L.marker(
+                [51.800919, -4.051493],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a7a103365483bf37440bd65f3da495ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_694b266742471f369d2ae08fe18e0678 = $(`<div id="html_694b266742471f369d2ae08fe18e0678" style="width: 100.0%; height: 100.0%;">     <b>Efficient Living Solutions Uk Ltd</b><br>     <a href="https://www.efficientliving.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a7a103365483bf37440bd65f3da495ca.setContent(html_694b266742471f369d2ae08fe18e0678);
+            
+        
+
+        marker_984e2142622f1353550a570d16139339.bindPopup(popup_a7a103365483bf37440bd65f3da495ca)
+        ;
+
+        
+    
+    
+            var marker_dc616b4ab6ed98634702c79625dc8bae = L.marker(
+                [51.540201, -3.076341],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_41b546c2e90b2f28fe8b46533271c9bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70e7ea777977950622b75fe841a9fe1f = $(`<div id="html_70e7ea777977950622b75fe841a9fe1f" style="width: 100.0%; height: 100.0%;">     <b>Elec Tek Installations</b><br>     <a href="https://electekinstallations.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_41b546c2e90b2f28fe8b46533271c9bc.setContent(html_70e7ea777977950622b75fe841a9fe1f);
+            
+        
+
+        marker_dc616b4ab6ed98634702c79625dc8bae.bindPopup(popup_41b546c2e90b2f28fe8b46533271c9bc)
+        ;
+
+        
+    
+    
+            var marker_4d8c10828b429d368b8bf741d427d0e1 = L.marker(
+                [51.717945, -3.446125],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_14577266f863c90cdf3f888028a3e7f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c22bc3cb81876da16fdb9ee26a074a60 = $(`<div id="html_c22bc3cb81876da16fdb9ee26a074a60" style="width: 100.0%; height: 100.0%;">     <b>Electrical Innovation Wales Limited</b><br>     <a href="https://electricalinnovation.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_14577266f863c90cdf3f888028a3e7f5.setContent(html_c22bc3cb81876da16fdb9ee26a074a60);
+            
+        
+
+        marker_4d8c10828b429d368b8bf741d427d0e1.bindPopup(popup_14577266f863c90cdf3f888028a3e7f5)
+        ;
+
+        
+    
+    
+            var marker_faf200962b59779624097924d32a16f8 = L.marker(
+                [51.686707, -3.171701],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_ba425f25cd0efaa9c2e8300ad964d68c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7367dd0848a6d744918b7b2746be95e = $(`<div id="html_f7367dd0848a6d744918b7b2746be95e" style="width: 100.0%; height: 100.0%;">     <b>Elite Rendering System Ltd</b><br>     <a href="https://eliterenderingsystems.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_ba425f25cd0efaa9c2e8300ad964d68c.setContent(html_f7367dd0848a6d744918b7b2746be95e);
+            
+        
+
+        marker_faf200962b59779624097924d32a16f8.bindPopup(popup_ba425f25cd0efaa9c2e8300ad964d68c)
+        ;
+
+        
+    
+    
+            var marker_dc68c313a2ab91967b8b8e606ccefb1a = L.marker(
+                [53.270007, -4.517839],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_2f3b642654c6a49179e68becb334909b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79710090234848c1b1c0f758dd69e314 = $(`<div id="html_79710090234848c1b1c0f758dd69e314" style="width: 100.0%; height: 100.0%;">     <b>Emyr Roberts Electrical and Renewable Ltd</b><br>     <a href="https://emyrrobertselectrical.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_2f3b642654c6a49179e68becb334909b.setContent(html_79710090234848c1b1c0f758dd69e314);
+            
+        
+
+        marker_dc68c313a2ab91967b8b8e606ccefb1a.bindPopup(popup_2f3b642654c6a49179e68becb334909b)
+        ;
+
+        
+    
+    
+            var marker_365b4437b6469546e8a8e537e74a5f4c = L.marker(
+                [51.744058, -3.152472],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_75ab7f35a3ebf06becab5ed0343c4019 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c0e51b736c42671ae079ce1eea2a921 = $(`<div id="html_6c0e51b736c42671ae079ce1eea2a921" style="width: 100.0%; height: 100.0%;">     <b>Energy Hub (South Wales) Ltd T/A OVO Solar and Heating South Wales</b><br>     <a href="https://solar-and-heating.ovo.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_75ab7f35a3ebf06becab5ed0343c4019.setContent(html_6c0e51b736c42671ae079ce1eea2a921);
+            
+        
+
+        marker_365b4437b6469546e8a8e537e74a5f4c.bindPopup(popup_75ab7f35a3ebf06becab5ed0343c4019)
+        ;
+
+        
+    
+    
+            var marker_90621b38807c956d09c1031581b2fdde = L.marker(
+                [51.400469, -3.281476],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_f61351ef9998640b41f3d5696bd43576 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88bad7b09602ef3ebb392408732353e3 = $(`<div id="html_88bad7b09602ef3ebb392408732353e3" style="width: 100.0%; height: 100.0%;">     <b>Energy Renewable Solutions Ltd</b><br>     <a href="https://ersgroupuk.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_f61351ef9998640b41f3d5696bd43576.setContent(html_88bad7b09602ef3ebb392408732353e3);
+            
+        
+
+        marker_90621b38807c956d09c1031581b2fdde.bindPopup(popup_f61351ef9998640b41f3d5696bd43576)
+        ;
+
+        
+    
+    
+            var marker_4a49ee5489b2522f299766ee7141fa35 = L.marker(
+                [53.19683, -2.611816],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_9de29bd8d319ff5445e16dd0d0913198 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6ffe439be1ae657412505c5dea255cf = $(`<div id="html_c6ffe439be1ae657412505c5dea255cf" style="width: 100.0%; height: 100.0%;">     <b>Entire Services Ltd</b><br>     <a href="https://entirerenewables.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_9de29bd8d319ff5445e16dd0d0913198.setContent(html_c6ffe439be1ae657412505c5dea255cf);
+            
+        
+
+        marker_4a49ee5489b2522f299766ee7141fa35.bindPopup(popup_9de29bd8d319ff5445e16dd0d0913198)
+        ;
+
+        
+    
+    
+            var marker_66010fbab5e6cbfd086c2aa1f78da7cb = L.marker(
+                [53.298651, -3.763313],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_dbac20077e96078918211d6de852c399 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b03bcff431dfd11fc81164645c4950b = $(`<div id="html_7b03bcff431dfd11fc81164645c4950b" style="width: 100.0%; height: 100.0%;">     <b>Eureka (North Wales) Ltd</b><br>     <a href="https://www.eurekasmarthomes.wales/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_dbac20077e96078918211d6de852c399.setContent(html_7b03bcff431dfd11fc81164645c4950b);
+            
+        
+
+        marker_66010fbab5e6cbfd086c2aa1f78da7cb.bindPopup(popup_dbac20077e96078918211d6de852c399)
+        ;
+
+        
+    
+    
+            var marker_305bfb4c1a1386101ecf387463c5d85d = L.marker(
+                [50.602761, -2.471366],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_99159097f01ef1d1fc8ec4dd40d43e25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39ba72123fb28c139ed7d4c2f5dd9e11 = $(`<div id="html_39ba72123fb28c139ed7d4c2f5dd9e11" style="width: 100.0%; height: 100.0%;">     <b>Evolve Home Energy Solutions</b><br>     <a href="https://www.evolvehes.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_99159097f01ef1d1fc8ec4dd40d43e25.setContent(html_39ba72123fb28c139ed7d4c2f5dd9e11);
+            
+        
+
+        marker_305bfb4c1a1386101ecf387463c5d85d.bindPopup(popup_99159097f01ef1d1fc8ec4dd40d43e25)
+        ;
+
+        
+    
+    
+            var marker_ecf10452fad73453f33dbe8ea4507fe5 = L.marker(
+                [51.605204, -2.918574],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_16089cc80d56f8bfa8775d7de8428a1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5a9d5b0ce46e03055238651f41ac625 = $(`<div id="html_d5a9d5b0ce46e03055238651f41ac625" style="width: 100.0%; height: 100.0%;">     <b>Fenergy Glass Ltd</b><br>     <a href="https://fenergy.co.uk/home/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_16089cc80d56f8bfa8775d7de8428a1f.setContent(html_d5a9d5b0ce46e03055238651f41ac625);
+            
+        
+
+        marker_ecf10452fad73453f33dbe8ea4507fe5.bindPopup(popup_16089cc80d56f8bfa8775d7de8428a1f)
+        ;
+
+        
+    
+    
+            var marker_049f939d6d55a87a30ccd14eae960e43 = L.marker(
+                [51.577477, -3.293911],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_27611ed40c39f422b7b82b87bc33b0f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b179d87f35a434aa882cf14b2755aed7 = $(`<div id="html_b179d87f35a434aa882cf14b2755aed7" style="width: 100.0%; height: 100.0%;">     <b>Fenergy Solutions Ltd</b><br>     <a href="https://fenergy.co.uk/home/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_27611ed40c39f422b7b82b87bc33b0f5.setContent(html_b179d87f35a434aa882cf14b2755aed7);
+            
+        
+
+        marker_049f939d6d55a87a30ccd14eae960e43.bindPopup(popup_27611ed40c39f422b7b82b87bc33b0f5)
+        ;
+
+        
+    
+    
+            var marker_1484f845c59b73c4bf12a908c7d8a30b = L.marker(
+                [53.142893, -3.802124],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_2752ae49eaaba2d53e91cbc8b623f6cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84b3b876c5dc3369bc0d9ae348f3ec87 = $(`<div id="html_84b3b876c5dc3369bc0d9ae348f3ec87" style="width: 100.0%; height: 100.0%;">     <b>Fflam Eryri (Cyf) Ltd</b><br>     <a href="https://www.fflameryri.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_2752ae49eaaba2d53e91cbc8b623f6cb.setContent(html_84b3b876c5dc3369bc0d9ae348f3ec87);
+            
+        
+
+        marker_1484f845c59b73c4bf12a908c7d8a30b.bindPopup(popup_2752ae49eaaba2d53e91cbc8b623f6cb)
+        ;
+
+        
+    
+    
+            var marker_be299950f719751859e2e8331100972f = L.marker(
+                [51.69336, -4.142098],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_4b73c2eced45a6bf01aa863e9189d9dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b18883e5e5b361cc8aa4ba67f04ed474 = $(`<div id="html_b18883e5e5b361cc8aa4ba67f04ed474" style="width: 100.0%; height: 100.0%;">     <b>First Choice Energy Ltd</b><br>     <a href="https://firstchoiceenergy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_4b73c2eced45a6bf01aa863e9189d9dc.setContent(html_b18883e5e5b361cc8aa4ba67f04ed474);
+            
+        
+
+        marker_be299950f719751859e2e8331100972f.bindPopup(popup_4b73c2eced45a6bf01aa863e9189d9dc)
+        ;
+
+        
+    
+    
+            var marker_95ad245758a6cd5f748f2e2451bc654d = L.marker(
+                [51.421989, -0.780367],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_12a0026203808a6609f46c45e96eb15f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ba8f7a3959e84907d69a86c8c2c7c42 = $(`<div id="html_8ba8f7a3959e84907d69a86c8c2c7c42" style="width: 100.0%; height: 100.0%;">     <b>ForeUK Ltd</b><br>     <a href="https://foreuk.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_12a0026203808a6609f46c45e96eb15f.setContent(html_8ba8f7a3959e84907d69a86c8c2c7c42);
+            
+        
+
+        marker_95ad245758a6cd5f748f2e2451bc654d.bindPopup(popup_12a0026203808a6609f46c45e96eb15f)
+        ;
+
+        
+    
+    
+            var marker_74d0aa78862d3c1668980c31420c9f45 = L.marker(
+                [51.504329, -3.113316],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_9d5d70cb91674206cda98566a525f0a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_260cf6764f26dde8c808bdba41568e91 = $(`<div id="html_260cf6764f26dde8c808bdba41568e91" style="width: 100.0%; height: 100.0%;">     <b>Green Energy Solar Company (UK) Ltd</b><br>     <a href="https://www.greenenergysolar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_9d5d70cb91674206cda98566a525f0a9.setContent(html_260cf6764f26dde8c808bdba41568e91);
+            
+        
+
+        marker_74d0aa78862d3c1668980c31420c9f45.bindPopup(popup_9d5d70cb91674206cda98566a525f0a9)
+        ;
+
+        
+    
+    
+            var marker_fda8e0ab6e88977c0f30c8579c784e2a = L.marker(
+                [51.492481, -3.550677],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_694cb0e3c376d9becf226ae885c40e14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b56c1025172934bab8736e47542f92d5 = $(`<div id="html_b56c1025172934bab8736e47542f92d5" style="width: 100.0%; height: 100.0%;">     <b>Gibson Specialist Technical Services Ltd</b><br>     <a href="https://www.gibson-sts.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_694cb0e3c376d9becf226ae885c40e14.setContent(html_b56c1025172934bab8736e47542f92d5);
+            
+        
+
+        marker_fda8e0ab6e88977c0f30c8579c784e2a.bindPopup(popup_694cb0e3c376d9becf226ae885c40e14)
+        ;
+
+        
+    
+    
+            var marker_aaf05ed814eca2c96625d3dc61184234 = L.marker(
+                [50.725517, -1.865406],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_34a326034fa0f4c1b5fea7558cd7f22f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89433044960075c2a85dd168a8e8420a = $(`<div id="html_89433044960075c2a85dd168a8e8420a" style="width: 100.0%; height: 100.0%;">     <b>Glow Green Ltd</b><br>     <a href="https://www.glowgreenltd.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_34a326034fa0f4c1b5fea7558cd7f22f.setContent(html_89433044960075c2a85dd168a8e8420a);
+            
+        
+
+        marker_aaf05ed814eca2c96625d3dc61184234.bindPopup(popup_34a326034fa0f4c1b5fea7558cd7f22f)
+        ;
+
+        
+    
+    
+            var marker_71362b344ce349a79a28d73de26dc088 = L.marker(
+                [53.277989, -3.581607],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_d8072c4ff541961dfc1f152bfbbed447 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89869025517f809595e0a657d3167e25 = $(`<div id="html_89869025517f809595e0a657d3167e25" style="width: 100.0%; height: 100.0%;">     <b>Goodwin Electrical Ltd</b><br>     <a href="https://www.goodwin-electrical.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_d8072c4ff541961dfc1f152bfbbed447.setContent(html_89869025517f809595e0a657d3167e25);
+            
+        
+
+        marker_71362b344ce349a79a28d73de26dc088.bindPopup(popup_d8072c4ff541961dfc1f152bfbbed447)
+        ;
+
+        
+    
+    
+            var marker_d18fb1f71fa40e4d2d1c08fe7b8f65ec = L.marker(
+                [53.334167, -0.961233],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_0b3b090b092aae6ebc320c5e1ba05a4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45f17a837723f8ca33a37ab8af4d0c52 = $(`<div id="html_45f17a837723f8ca33a37ab8af4d0c52" style="width: 100.0%; height: 100.0%;">     <b>Green Fusion Home Innovations Ltd T/A Future Proof Solar</b><br>     <a href="https://futureproofsolar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_0b3b090b092aae6ebc320c5e1ba05a4f.setContent(html_45f17a837723f8ca33a37ab8af4d0c52);
+            
+        
+
+        marker_d18fb1f71fa40e4d2d1c08fe7b8f65ec.bindPopup(popup_0b3b090b092aae6ebc320c5e1ba05a4f)
+        ;
+
+        
+    
+    
+            var marker_bdcdd2ec002528bdeb97eedf36fc2fcb = L.marker(
+                [51.824176, -4.958745],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_c9040f662faacf17778cee9999712623 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68083689e4cf43bdecc61aa3e3cbcdea = $(`<div id="html_68083689e4cf43bdecc61aa3e3cbcdea" style="width: 100.0%; height: 100.0%;">     <b>Green Warmth Ltd</b><br>     <a href="https://www.greenwarmth.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_c9040f662faacf17778cee9999712623.setContent(html_68083689e4cf43bdecc61aa3e3cbcdea);
+            
+        
+
+        marker_bdcdd2ec002528bdeb97eedf36fc2fcb.bindPopup(popup_c9040f662faacf17778cee9999712623)
+        ;
+
+        
+    
+    
+            var marker_381220f874c3cf69421315752a340fd4 = L.marker(
+                [52.86186, -4.621088],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_b7ee6103174e9940c8e48b6887553964 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af7295b5e18034445056bc0a348bf67c = $(`<div id="html_af7295b5e18034445056bc0a348bf67c" style="width: 100.0%; height: 100.0%;">     <b>Gwresogi LTD</b><br>     <a href="https://gwresogi.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_b7ee6103174e9940c8e48b6887553964.setContent(html_af7295b5e18034445056bc0a348bf67c);
+            
+        
+
+        marker_381220f874c3cf69421315752a340fd4.bindPopup(popup_b7ee6103174e9940c8e48b6887553964)
+        ;
+
+        
+    
+    
+            var marker_afe40f456dab09a975ac2c3c0a37701a = L.marker(
+                [53.186878, -4.204295],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_08ca6ee8980fa1541069422ce14f366c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06216721c9954a045d227ce01cf48e03 = $(`<div id="html_06216721c9954a045d227ce01cf48e03" style="width: 100.0%; height: 100.0%;">     <b>H Rice Electrical</b><br>     <a href="https://www.recc.org.uk/scheme/members/00077528-h-rice-electrical" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_08ca6ee8980fa1541069422ce14f366c.setContent(html_06216721c9954a045d227ce01cf48e03);
+            
+        
+
+        marker_afe40f456dab09a975ac2c3c0a37701a.bindPopup(popup_08ca6ee8980fa1541069422ce14f366c)
+        ;
+
+        
+    
+    
+            var marker_a5c81730bf84dc9d9747f4294fd9a2b5 = L.marker(
+                [51.619046, -3.961918],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_bb4888edab2c48cf7524b20a07033872 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72cdf3bfa514145725509043c7b9c3f8 = $(`<div id="html_72cdf3bfa514145725509043c7b9c3f8" style="width: 100.0%; height: 100.0%;">     <b>Hamilton Developments (Wales) Ltd</b><br>     <a href="https://hamiltondev.org.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_bb4888edab2c48cf7524b20a07033872.setContent(html_72cdf3bfa514145725509043c7b9c3f8);
+            
+        
+
+        marker_a5c81730bf84dc9d9747f4294fd9a2b5.bindPopup(popup_bb4888edab2c48cf7524b20a07033872)
+        ;
+
+        
+    
+    
+            var marker_4b582ab31fe1de4fa70d396da94b7364 = L.marker(
+                [52.718154, -2.720612],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_5ca168d2c1b4a6a7afe6698eba032b65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac6d8049b102525d455a2a43c368fe40 = $(`<div id="html_ac6d8049b102525d455a2a43c368fe40" style="width: 100.0%; height: 100.0%;">     <b>Heat Charge Evolution LTD</b><br>     <a href="https://www.hcevolution.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_5ca168d2c1b4a6a7afe6698eba032b65.setContent(html_ac6d8049b102525d455a2a43c368fe40);
+            
+        
+
+        marker_4b582ab31fe1de4fa70d396da94b7364.bindPopup(popup_5ca168d2c1b4a6a7afe6698eba032b65)
+        ;
+
+        
+    
+    
+            var marker_81438a4151eefc204bb609f6adb81fcb = L.marker(
+                [51.5025, -0.119384],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_353c5ba5a78c438673fa64fdb5576b35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c2df365bb058dfd90d7d1c18e41a71b = $(`<div id="html_6c2df365bb058dfd90d7d1c18e41a71b" style="width: 100.0%; height: 100.0%;">     <b>Heat Geek Installations Ltd</b><br>     <a href="https://www.heatgeek.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_353c5ba5a78c438673fa64fdb5576b35.setContent(html_6c2df365bb058dfd90d7d1c18e41a71b);
+            
+        
+
+        marker_81438a4151eefc204bb609f6adb81fcb.bindPopup(popup_353c5ba5a78c438673fa64fdb5576b35)
+        ;
+
+        
+    
+    
+            var marker_c904de6e43fa7fecb84399f8af7ca799 = L.marker(
+                [53.429426, -2.595934],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_8100514e9ab22f7257f098b573c77285 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bc7ba54297d00601ce9fe0ae02d6353 = $(`<div id="html_9bc7ba54297d00601ce9fe0ae02d6353" style="width: 100.0%; height: 100.0%;">     <b>Heatable Ltd</b><br>     <a href="https://heatable.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_8100514e9ab22f7257f098b573c77285.setContent(html_9bc7ba54297d00601ce9fe0ae02d6353);
+            
+        
+
+        marker_c904de6e43fa7fecb84399f8af7ca799.bindPopup(popup_8100514e9ab22f7257f098b573c77285)
+        ;
+
+        
+    
+    
+            var marker_75cee4a53e9de8de05d9e158766262fb = L.marker(
+                [51.522619, -3.189336],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_51e5634b66bff67fed9ef9455e795fc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_564a7ee9cd8bd347821088703989777d = $(`<div id="html_564a7ee9cd8bd347821088703989777d" style="width: 100.0%; height: 100.0%;">     <b>Heatforce (WALES) Limited</b><br>     <a href="https://heatforce.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_51e5634b66bff67fed9ef9455e795fc9.setContent(html_564a7ee9cd8bd347821088703989777d);
+            
+        
+
+        marker_75cee4a53e9de8de05d9e158766262fb.bindPopup(popup_51e5634b66bff67fed9ef9455e795fc9)
+        ;
+
+        
+    
+    
+            var marker_32cd81e8e15df9008be7460847dfc782 = L.marker(
+                [52.083236, -4.629848],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a16cb4312894c3ee7c3a9b2cdc42b236 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c53ae60b1538e11015ed489ba78fa25 = $(`<div id="html_0c53ae60b1538e11015ed489ba78fa25" style="width: 100.0%; height: 100.0%;">     <b>Heatshine Ltd</b><br>     <a href="https://heatshine.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a16cb4312894c3ee7c3a9b2cdc42b236.setContent(html_0c53ae60b1538e11015ed489ba78fa25);
+            
+        
+
+        marker_32cd81e8e15df9008be7460847dfc782.bindPopup(popup_a16cb4312894c3ee7c3a9b2cdc42b236)
+        ;
+
+        
+    
+    
+            var marker_b903c77f43beff2f2558a6e4427adf22 = L.marker(
+                [51.502835, -3.191269],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_015abc410f6a2d68ed61c84d9ccff7b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9c46968eca2d3d27e8b4a8b54d2cf3c = $(`<div id="html_e9c46968eca2d3d27e8b4a8b54d2cf3c" style="width: 100.0%; height: 100.0%;">     <b>HYC Ltd T/A Vedmore Electrical Solutions</b><br>     <a href="https://www.vedmore-electrical.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_015abc410f6a2d68ed61c84d9ccff7b3.setContent(html_e9c46968eca2d3d27e8b4a8b54d2cf3c);
+            
+        
+
+        marker_b903c77f43beff2f2558a6e4427adf22.bindPopup(popup_015abc410f6a2d68ed61c84d9ccff7b3)
+        ;
+
+        
+    
+    
+            var marker_0f884aa54dca1055348b40634198e697 = L.marker(
+                [53.289113, -3.697028],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_1edeff6c1500179b31300c171714ba94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09005a6dc8929eb792ee43ee28ff77b6 = $(`<div id="html_09005a6dc8929eb792ee43ee28ff77b6" style="width: 100.0%; height: 100.0%;">     <b>Independent Energy Savers Limited</b><br>     <a href="https://www.yousaveenergy.org/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_1edeff6c1500179b31300c171714ba94.setContent(html_09005a6dc8929eb792ee43ee28ff77b6);
+            
+        
+
+        marker_0f884aa54dca1055348b40634198e697.bindPopup(popup_1edeff6c1500179b31300c171714ba94)
+        ;
+
+        
+    
+    
+            var marker_1d73f073750dbc82af4a918f7fd4b52f = L.marker(
+                [53.186861, -2.877867],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_2dee03b687724c08274fee5a8f2aa0e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07476ed8a3789601dffe40f0ebd693e5 = $(`<div id="html_07476ed8a3789601dffe40f0ebd693e5" style="width: 100.0%; height: 100.0%;">     <b>Integrated Energy Ltd</b><br>     <a href="https://integratedenergy.ltd/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_2dee03b687724c08274fee5a8f2aa0e9.setContent(html_07476ed8a3789601dffe40f0ebd693e5);
+            
+        
+
+        marker_1d73f073750dbc82af4a918f7fd4b52f.bindPopup(popup_2dee03b687724c08274fee5a8f2aa0e9)
+        ;
+
+        
+    
+    
+            var marker_e8c6fbf8b13218ab2e59cd3e949646f2 = L.marker(
+                [51.738806, -4.299262],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_cd000f0fff6a0c1ac852ba7590cb5296 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a44336cbb735dab3a2cacca47d09c531 = $(`<div id="html_a44336cbb735dab3a2cacca47d09c531" style="width: 100.0%; height: 100.0%;">     <b>Iwec International LTD</b><br>     <a href="https://www.iwecelectrical.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_cd000f0fff6a0c1ac852ba7590cb5296.setContent(html_a44336cbb735dab3a2cacca47d09c531);
+            
+        
+
+        marker_e8c6fbf8b13218ab2e59cd3e949646f2.bindPopup(popup_cd000f0fff6a0c1ac852ba7590cb5296)
+        ;
+
+        
+    
+    
+            var marker_83a21a0838cf192a6d67b8d6cc6f5a89 = L.marker(
+                [53.294777, -3.516957],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_ec6431747709d50bab2ba4fd7cf410ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e27422889a146549863aeea05987688f = $(`<div id="html_e27422889a146549863aeea05987688f" style="width: 100.0%; height: 100.0%;">     <b>JM Renewables Solutions Ltd</b><br>     <a href="https://jmrenewables.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_ec6431747709d50bab2ba4fd7cf410ab.setContent(html_e27422889a146549863aeea05987688f);
+            
+        
+
+        marker_83a21a0838cf192a6d67b8d6cc6f5a89.bindPopup(popup_ec6431747709d50bab2ba4fd7cf410ab)
+        ;
+
+        
+    
+    
+            var marker_964921e959cd410f0ecb7b2e54297261 = L.marker(
+                [52.023944, -4.399049],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_6e3c3e70ecb076d9b84ed21c4bb16271 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1374c0e865df691110378fab25fe948a = $(`<div id="html_1374c0e865df691110378fab25fe948a" style="width: 100.0%; height: 100.0%;">     <b>K A Electrical Services Limited</b><br>     <a href="https://www.kaelectrical.services/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_6e3c3e70ecb076d9b84ed21c4bb16271.setContent(html_1374c0e865df691110378fab25fe948a);
+            
+        
+
+        marker_964921e959cd410f0ecb7b2e54297261.bindPopup(popup_6e3c3e70ecb076d9b84ed21c4bb16271)
+        ;
+
+        
+    
+    
+            var marker_3f1a166a471563234730a25bfebd41de = L.marker(
+                [51.570025, -3.991929],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a9c927482e7a00f6d3846ac13516af34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66009937f97b2eaa7ae363dd927beac8 = $(`<div id="html_66009937f97b2eaa7ae363dd927beac8" style="width: 100.0%; height: 100.0%;">     <b>Limitless Energy Ltd</b><br>     <a href="https://www.limitless-energy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a9c927482e7a00f6d3846ac13516af34.setContent(html_66009937f97b2eaa7ae363dd927beac8);
+            
+        
+
+        marker_3f1a166a471563234730a25bfebd41de.bindPopup(popup_a9c927482e7a00f6d3846ac13516af34)
+        ;
+
+        
+    
+    
+            var marker_20ce9a4c1cd5b7569d6928ae732405de = L.marker(
+                [51.756759, -3.226687],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_7c6299139a0da6a0cf793f946996d718 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3be4d04b6ff05dfd70b670dde16f0e3c = $(`<div id="html_3be4d04b6ff05dfd70b670dde16f0e3c" style="width: 100.0%; height: 100.0%;">     <b>Madola Energy Ltd</b><br>     <a href="https://madolaenergy.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_7c6299139a0da6a0cf793f946996d718.setContent(html_3be4d04b6ff05dfd70b670dde16f0e3c);
+            
+        
+
+        marker_20ce9a4c1cd5b7569d6928ae732405de.bindPopup(popup_7c6299139a0da6a0cf793f946996d718)
+        ;
+
+        
+    
+    
+            var marker_f52e8f1eee0d6824fd83e42b9b8385f4 = L.marker(
+                [53.343614, -2.705557],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_b76ac02f6960883ea4c14e03a0f5f8e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_622b4851db018d9cccb456b3070c962d = $(`<div id="html_622b4851db018d9cccb456b3070c962d" style="width: 100.0%; height: 100.0%;">     <b>Magna Renewables Ltd</b><br>     <a href="https://magnarenewables.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_b76ac02f6960883ea4c14e03a0f5f8e0.setContent(html_622b4851db018d9cccb456b3070c962d);
+            
+        
+
+        marker_f52e8f1eee0d6824fd83e42b9b8385f4.bindPopup(popup_b76ac02f6960883ea4c14e03a0f5f8e0)
+        ;
+
+        
+    
+    
+            var marker_60fdc6294c65bbcc482ebee5ae6b3227 = L.marker(
+                [50.90073, -1.354086],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_5298b0195fdfc52a3fddd025357ee893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68caeafef4272e12c2d6dfaea99d8dfe = $(`<div id="html_68caeafef4272e12c2d6dfaea99d8dfe" style="width: 100.0%; height: 100.0%;">     <b>Mobile Services</b><br>     <a href="https://www.yell.com/biz/mobile-services-southampton-5341113/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_5298b0195fdfc52a3fddd025357ee893.setContent(html_68caeafef4272e12c2d6dfaea99d8dfe);
+            
+        
+
+        marker_60fdc6294c65bbcc482ebee5ae6b3227.bindPopup(popup_5298b0195fdfc52a3fddd025357ee893)
+        ;
+
+        
+    
+    
+            var marker_486bf8da2984f6f08d31846284e297e7 = L.marker(
+                [51.639679, -2.69306],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_eaf96b4278aa8d94f87693fbd4bbc9de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d237d52921486f93fe71cd72bb8911cf = $(`<div id="html_d237d52921486f93fe71cd72bb8911cf" style="width: 100.0%; height: 100.0%;">     <b>Nightingale Electrical Ltd</b><br>     <a href="https://nightingaleelectrical.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_eaf96b4278aa8d94f87693fbd4bbc9de.setContent(html_d237d52921486f93fe71cd72bb8911cf);
+            
+        
+
+        marker_486bf8da2984f6f08d31846284e297e7.bindPopup(popup_eaf96b4278aa8d94f87693fbd4bbc9de)
+        ;
+
+        
+    
+    
+            var marker_e402ab551b86151036b168c4a08a6420 = L.marker(
+                [51.647913, -2.666952],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_da86fe4e24750e5dd42d291477de60bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c83296f39b944b9e5ef9034dc8965a8 = $(`<div id="html_4c83296f39b944b9e5ef9034dc8965a8" style="width: 100.0%; height: 100.0%;">     <b>Nimbus Solar Ltd</b><br>     <a href="https://nimbus-solar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_da86fe4e24750e5dd42d291477de60bb.setContent(html_4c83296f39b944b9e5ef9034dc8965a8);
+            
+        
+
+        marker_e402ab551b86151036b168c4a08a6420.bindPopup(popup_da86fe4e24750e5dd42d291477de60bb)
+        ;
+
+        
+    
+    
+            var marker_c88bdba48cc89ace0d67bb03234ee32c = L.marker(
+                [51.516037, -0.139293],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a5fd5aba3af859383ce52bd96e54277a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e4f8638a6613356285e9d4966a49bcb = $(`<div id="html_4e4f8638a6613356285e9d4966a49bcb" style="width: 100.0%; height: 100.0%;">     <b>Octopus Energy Services Ltd</b><br>     <a href="https://octopus.energy/blog/octopus-energy-services/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a5fd5aba3af859383ce52bd96e54277a.setContent(html_4e4f8638a6613356285e9d4966a49bcb);
+            
+        
+
+        marker_c88bdba48cc89ace0d67bb03234ee32c.bindPopup(popup_a5fd5aba3af859383ce52bd96e54277a)
+        ;
+
+        
+    
+    
+            var marker_396bd820ebafd4e800d90802fa3340ef = L.marker(
+                [51.905363, -4.738914],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_7796b1825f6bc3df03ea99d1a5bf610d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d083b00f5c796f670abd8e826b2a4c0a = $(`<div id="html_d083b00f5c796f670abd8e826b2a4c0a" style="width: 100.0%; height: 100.0%;">     <b>Preseli Solar LTD</b><br>     <a href="https://www.preselisolar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_7796b1825f6bc3df03ea99d1a5bf610d.setContent(html_d083b00f5c796f670abd8e826b2a4c0a);
+            
+        
+
+        marker_396bd820ebafd4e800d90802fa3340ef.bindPopup(popup_7796b1825f6bc3df03ea99d1a5bf610d)
+        ;
+
+        
+    
+    
+            var marker_2d09101b57a3abcbdea77ae4d71aa369 = L.marker(
+                [53.193793, -2.929753],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_c49ea1c8550c6278fc5df6560c68abe1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6907d53c2f0f5f0242505d516cf2956b = $(`<div id="html_6907d53c2f0f5f0242505d516cf2956b" style="width: 100.0%; height: 100.0%;">     <b>PV Fit Ltd T/A Genfit</b><br>     <a href="https://genfit.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_c49ea1c8550c6278fc5df6560c68abe1.setContent(html_6907d53c2f0f5f0242505d516cf2956b);
+            
+        
+
+        marker_2d09101b57a3abcbdea77ae4d71aa369.bindPopup(popup_c49ea1c8550c6278fc5df6560c68abe1)
+        ;
+
+        
+    
+    
+            var marker_a3b27f848b349bbdacdb6019844ad5d1 = L.marker(
+                [51.516824, -3.601518],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_92fa0afe1614f7f9fc5b541fa6c4867c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bba7a2697dbc6d07306def795b24856e = $(`<div id="html_bba7a2697dbc6d07306def795b24856e" style="width: 100.0%; height: 100.0%;">     <b>Quantum Renewables</b><br>     <a href="https://www.quantumrenewables.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_92fa0afe1614f7f9fc5b541fa6c4867c.setContent(html_bba7a2697dbc6d07306def795b24856e);
+            
+        
+
+        marker_a3b27f848b349bbdacdb6019844ad5d1.bindPopup(popup_92fa0afe1614f7f9fc5b541fa6c4867c)
+        ;
+
+        
+    
+    
+            var marker_243c4ec1f65553c802b0ad6e2c0b4d5f = L.marker(
+                [53.044933, -2.924859],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_7fafc5f5abef1fc135cf53a3856961aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a277168d3bb347f8593a322d2a55dec = $(`<div id="html_2a277168d3bb347f8593a322d2a55dec" style="width: 100.0%; height: 100.0%;">     <b>Rawson EV Power Ltd</b><br>     <a href="https://r-evpower.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_7fafc5f5abef1fc135cf53a3856961aa.setContent(html_2a277168d3bb347f8593a322d2a55dec);
+            
+        
+
+        marker_243c4ec1f65553c802b0ad6e2c0b4d5f.bindPopup(popup_7fafc5f5abef1fc135cf53a3856961aa)
+        ;
+
+        
+    
+    
+            var marker_f518e7fbae0dc27bc1c081be24a29f47 = L.marker(
+                [51.466887, -3.17765],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_6304ee8934133c67241f6fbc6705c838 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83791af8849876f55c0c64477357bc06 = $(`<div id="html_83791af8849876f55c0c64477357bc06" style="width: 100.0%; height: 100.0%;">     <b>Reynolds Electrical Solutions</b><br>     <a href="https://sites.google.com/view/reynoldselectricalsolutions/home" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_6304ee8934133c67241f6fbc6705c838.setContent(html_83791af8849876f55c0c64477357bc06);
+            
+        
+
+        marker_f518e7fbae0dc27bc1c081be24a29f47.bindPopup(popup_6304ee8934133c67241f6fbc6705c838)
+        ;
+
+        
+    
+    
+            var marker_4005e901c3ac3965bcbcb39f1030fb91 = L.marker(
+                [53.070616, -3.01626],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_2d096d336c4eaac259e475993216b670 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3eda765c905fc91d7bc03f78032e7b46 = $(`<div id="html_3eda765c905fc91d7bc03f78032e7b46" style="width: 100.0%; height: 100.0%;">     <b>RR Electrical and Solar LTD</b><br>     <a href="https://rrelectricalandsolar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_2d096d336c4eaac259e475993216b670.setContent(html_3eda765c905fc91d7bc03f78032e7b46);
+            
+        
+
+        marker_4005e901c3ac3965bcbcb39f1030fb91.bindPopup(popup_2d096d336c4eaac259e475993216b670)
+        ;
+
+        
+    
+    
+            var marker_996da3e5325b96b6bb8aa5ec6dce1c89 = L.marker(
+                [51.805387, -4.744134],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_8cd7c9e5ca98c671047aff9a4477452c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ea7c50c49cce619af7ad4eaaa040600 = $(`<div id="html_8ea7c50c49cce619af7ad4eaaa040600" style="width: 100.0%; height: 100.0%;">     <b>Silverstone Green Energy Ltd</b><br>     <a href="https://silverstonege.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_8cd7c9e5ca98c671047aff9a4477452c.setContent(html_8ea7c50c49cce619af7ad4eaaa040600);
+            
+        
+
+        marker_996da3e5325b96b6bb8aa5ec6dce1c89.bindPopup(popup_8cd7c9e5ca98c671047aff9a4477452c)
+        ;
+
+        
+    
+    
+            var marker_1a85804d44316db13c86471de7090254 = L.marker(
+                [51.51816, -0.109514],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a65beb4134b726662e81ec9c6ef4b5b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e5d85149cf4de0a383c33aeaacde4a7 = $(`<div id="html_4e5d85149cf4de0a383c33aeaacde4a7" style="width: 100.0%; height: 100.0%;">     <b>Soly UK Operations Ltd</b><br>     <a href="https://soly-energy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a65beb4134b726662e81ec9c6ef4b5b0.setContent(html_4e5d85149cf4de0a383c33aeaacde4a7);
+            
+        
+
+        marker_1a85804d44316db13c86471de7090254.bindPopup(popup_a65beb4134b726662e81ec9c6ef4b5b0)
+        ;
+
+        
+    
+    
+            var marker_1c8f3a4eb394b6c31011167b7f10345c = L.marker(
+                [51.778994, -3.24483],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_567a72caac941c76932fdd64d11af00b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73a9b9091db9754c532dab7a3e35d747 = $(`<div id="html_73a9b9091db9754c532dab7a3e35d747" style="width: 100.0%; height: 100.0%;">     <b>Stark Electrical Contractors Ltd</b><br>     <a href="https://starkelectrical.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_567a72caac941c76932fdd64d11af00b.setContent(html_73a9b9091db9754c532dab7a3e35d747);
+            
+        
+
+        marker_1c8f3a4eb394b6c31011167b7f10345c.bindPopup(popup_567a72caac941c76932fdd64d11af00b)
+        ;
+
+        
+    
+    
+            var marker_b14fc3f2aca9d9db9d5ca3212dd4a59f = L.marker(
+                [51.735147, 0.480465],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_e0861c86d249687d0d71ca82b694ea4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13616db6f7def66db2b909781f9742e1 = $(`<div id="html_13616db6f7def66db2b909781f9742e1" style="width: 100.0%; height: 100.0%;">     <b>Staybright Energy Ltd T/A Skylar Solar</b><br>     <a href="https://skylarsolar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_e0861c86d249687d0d71ca82b694ea4f.setContent(html_13616db6f7def66db2b909781f9742e1);
+            
+        
+
+        marker_b14fc3f2aca9d9db9d5ca3212dd4a59f.bindPopup(popup_e0861c86d249687d0d71ca82b694ea4f)
+        ;
+
+        
+    
+    
+            var marker_2c27e0238449d9df328c8d7cbb2b9e80 = L.marker(
+                [51.586895, -2.737591],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_faa957f6a31c02c9f2291e2cd04eb929 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3003d4952e4bdbc95bc9029b387916d2 = $(`<div id="html_3003d4952e4bdbc95bc9029b387916d2" style="width: 100.0%; height: 100.0%;">     <b>Summit Energies Ltd</b><br>     <a href="https://summitenergies.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_faa957f6a31c02c9f2291e2cd04eb929.setContent(html_3003d4952e4bdbc95bc9029b387916d2);
+            
+        
+
+        marker_2c27e0238449d9df328c8d7cbb2b9e80.bindPopup(popup_faa957f6a31c02c9f2291e2cd04eb929)
+        ;
+
+        
+    
+    
+            var marker_19de60d6a0c8731a193f1da730271f34 = L.marker(
+                [51.43003, -2.860926],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_a67019664492fb5d823dca4830dc0afa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80927bad17d8f89ec73dc841e4800b4e = $(`<div id="html_80927bad17d8f89ec73dc841e4800b4e" style="width: 100.0%; height: 100.0%;">     <b>Sustain Heating and Renewables Ltd</b><br>     <a href="https://sustainheating.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_a67019664492fb5d823dca4830dc0afa.setContent(html_80927bad17d8f89ec73dc841e4800b4e);
+            
+        
+
+        marker_19de60d6a0c8731a193f1da730271f34.bindPopup(popup_a67019664492fb5d823dca4830dc0afa)
+        ;
+
+        
+    
+    
+            var marker_12ab4dc0f560aa17b264047339610b84 = L.marker(
+                [51.408659, -3.444067],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_8fa62c87cf29c01757b23cc06f6cb0ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fff02ac4edf797916ff1f11967210cd = $(`<div id="html_5fff02ac4edf797916ff1f11967210cd" style="width: 100.0%; height: 100.0%;">     <b>Tewdric Energy Ltd</b><br>     <a href="https://www.tewdricenergy.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_8fa62c87cf29c01757b23cc06f6cb0ed.setContent(html_5fff02ac4edf797916ff1f11967210cd);
+            
+        
+
+        marker_12ab4dc0f560aa17b264047339610b84.bindPopup(popup_8fa62c87cf29c01757b23cc06f6cb0ed)
+        ;
+
+        
+    
+    
+            var marker_73eaefc4a27be0cb3c845a34b1e5e054 = L.marker(
+                [51.687062, -3.161367],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_6b6f1126e75d0fba2779edef30081b42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a6136d1c1aea9a1dae56b230f023235 = $(`<div id="html_0a6136d1c1aea9a1dae56b230f023235" style="width: 100.0%; height: 100.0%;">     <b>The Electrical Group Ltd</b><br>     <a href="https://www.theelectricalgroup.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_6b6f1126e75d0fba2779edef30081b42.setContent(html_0a6136d1c1aea9a1dae56b230f023235);
+            
+        
+
+        marker_73eaefc4a27be0cb3c845a34b1e5e054.bindPopup(popup_6b6f1126e75d0fba2779edef30081b42)
+        ;
+
+        
+    
+    
+            var marker_c512b2949eee4817996780dd7e58d3bc = L.marker(
+                [53.390723, -3.174934],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_9c5be56381db211f65bccfe6cf3c8fb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65fc5fcddc761a5eb2df4c2641589423 = $(`<div id="html_65fc5fcddc761a5eb2df4c2641589423" style="width: 100.0%; height: 100.0%;">     <b>The Everite Window Range Ltd</b><br>     <a href="https://everitewindows.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_9c5be56381db211f65bccfe6cf3c8fb2.setContent(html_65fc5fcddc761a5eb2df4c2641589423);
+            
+        
+
+        marker_c512b2949eee4817996780dd7e58d3bc.bindPopup(popup_9c5be56381db211f65bccfe6cf3c8fb2)
+        ;
+
+        
+    
+    
+            var marker_b67eb4fd1c6f413feb1548e5ffa2eeb3 = L.marker(
+                [52.216314, -2.194019],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_eff70d17819bb8f23e8a6fb4c615e110 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49070287f81afc8777aa4a30808bf4a3 = $(`<div id="html_49070287f81afc8777aa4a30808bf4a3" style="width: 100.0%; height: 100.0%;">     <b>Thermabead Ltd</b><br>     <a href="https://www.thermabead.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_eff70d17819bb8f23e8a6fb4c615e110.setContent(html_49070287f81afc8777aa4a30808bf4a3);
+            
+        
+
+        marker_b67eb4fd1c6f413feb1548e5ffa2eeb3.bindPopup(popup_eff70d17819bb8f23e8a6fb4c615e110)
+        ;
+
+        
+    
+    
+            var marker_c7ed330081ce53248e81aecaf7fe38ea = L.marker(
+                [51.780359, -4.042398],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_9698d55ed773fb87c8d4b344def0ac52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6199b7573aaec74cb977dbc88e77f6a3 = $(`<div id="html_6199b7573aaec74cb977dbc88e77f6a3" style="width: 100.0%; height: 100.0%;">     <b>Thermal Earth Limited</b><br>     <a href="https://www.thermalearth.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_9698d55ed773fb87c8d4b344def0ac52.setContent(html_6199b7573aaec74cb977dbc88e77f6a3);
+            
+        
+
+        marker_c7ed330081ce53248e81aecaf7fe38ea.bindPopup(popup_9698d55ed773fb87c8d4b344def0ac52)
+        ;
+
+        
+    
+    
+            var marker_24de998b705089f05bd530e6d1c5544a = L.marker(
+                [52.380999, -3.948313],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_ebcc5f29133a2581996c2c1c91cedb10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6229ea71dfc5631361e61ad6777bca0d = $(`<div id="html_6229ea71dfc5631361e61ad6777bca0d" style="width: 100.0%; height: 100.0%;">     <b>Trydan Will Davey Electrical Ltd</b><br>     <a href="https://www.trustmark.org.uk/firms/Trydan%20Will%20Davey%20Electrical%20Ltd-3886647-SY23%204NE?id=7b305824-54c9-4be4-969b-2702cdfb94b2" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_ebcc5f29133a2581996c2c1c91cedb10.setContent(html_6229ea71dfc5631361e61ad6777bca0d);
+            
+        
+
+        marker_24de998b705089f05bd530e6d1c5544a.bindPopup(popup_ebcc5f29133a2581996c2c1c91cedb10)
+        ;
+
+        
+    
+    
+            var marker_20f4dbcd52af238bb701a23589162385 = L.marker(
+                [53.671194, -2.699497],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_fba4c5b83008d568aac47871d052babd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe0752c3e81cbafb258ef5671e7da9df = $(`<div id="html_fe0752c3e81cbafb258ef5671e7da9df" style="width: 100.0%; height: 100.0%;">     <b>UPS Solar Limited</b><br>     <a href="https://ups-solar.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_fba4c5b83008d568aac47871d052babd.setContent(html_fe0752c3e81cbafb258ef5671e7da9df);
+            
+        
+
+        marker_20f4dbcd52af238bb701a23589162385.bindPopup(popup_fba4c5b83008d568aac47871d052babd)
+        ;
+
+        
+    
+    
+            var marker_3b12484cf207be7cd5672da7763031c8 = L.marker(
+                [51.377164, -2.653954],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_c4f36294f997572051f8764929d3cb16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0732e6ef5217271aab11a94e5274f82a = $(`<div id="html_0732e6ef5217271aab11a94e5274f82a" style="width: 100.0%; height: 100.0%;">     <b>Warmcare Insulation Ltd</b><br>     <a href="https://warmcareinsulation.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_c4f36294f997572051f8764929d3cb16.setContent(html_0732e6ef5217271aab11a94e5274f82a);
+            
+        
+
+        marker_3b12484cf207be7cd5672da7763031c8.bindPopup(popup_c4f36294f997572051f8764929d3cb16)
+        ;
+
+        
+    
+    
+            var marker_b59605d0a37b72d3c55c8844a25ae20a = L.marker(
+                [51.483907, -3.191222],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_360a15656cd35743c94c019c6ac5d6c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6299b8dba7bc7e02ea31f6a5d847dfc3 = $(`<div id="html_6299b8dba7bc7e02ea31f6a5d847dfc3" style="width: 100.0%; height: 100.0%;">     <b>WDS Green Energy Ltd</b><br>     <a href="https://www.wdsgreenenergy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_360a15656cd35743c94c019c6ac5d6c0.setContent(html_6299b8dba7bc7e02ea31f6a5d847dfc3);
+            
+        
+
+        marker_b59605d0a37b72d3c55c8844a25ae20a.bindPopup(popup_360a15656cd35743c94c019c6ac5d6c0)
+        ;
+
+        
+    
+    
+            var marker_6e8f03a6225ec98412de875bc5f19f08 = L.marker(
+                [53.749382, -3.031691],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_e9c50bff5711b4587c273a072e9f990a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1074964f8a1e9627d8764da81bab69a = $(`<div id="html_d1074964f8a1e9627d8764da81bab69a" style="width: 100.0%; height: 100.0%;">     <b>Wise Energy Solutions Ltd</b><br>     <a href="https://www.wiseenergy.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_e9c50bff5711b4587c273a072e9f990a.setContent(html_d1074964f8a1e9627d8764da81bab69a);
+            
+        
+
+        marker_6e8f03a6225ec98412de875bc5f19f08.bindPopup(popup_e9c50bff5711b4587c273a072e9f990a)
+        ;
+
+        
+    
+    
+            var marker_cd4f706348ef5a467e90ab8ad534eb86 = L.marker(
+                [52.176751, -2.231255],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_e09c82b2625a99040a4ab456df93a9ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8bc7d52c051993bbd4fae35daff0ab = $(`<div id="html_5a8bc7d52c051993bbd4fae35daff0ab" style="width: 100.0%; height: 100.0%;">     <b>WP Rendering</b><br>     <a href="https://www.wprendering-plastering.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_e09c82b2625a99040a4ab456df93a9ee.setContent(html_5a8bc7d52c051993bbd4fae35daff0ab);
+            
+        
+
+        marker_cd4f706348ef5a467e90ab8ad534eb86.bindPopup(popup_e09c82b2625a99040a4ab456df93a9ee)
+        ;
+
+        
+    
+    
+            var marker_d8db4e29ad89480494c8d00fb1bb68d6 = L.marker(
+                [51.713728, -2.997356],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_b0f1d30d23e7a179ca6192ab5b4167f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_854872433a349c973ef184261e4371cb = $(`<div id="html_854872433a349c973ef184261e4371cb" style="width: 100.0%; height: 100.0%;">     <b>WW Biomass Services Ltd</b><br>     <a href="https://wwbiomassservices.co.uk/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_b0f1d30d23e7a179ca6192ab5b4167f3.setContent(html_854872433a349c973ef184261e4371cb);
+            
+        
+
+        marker_d8db4e29ad89480494c8d00fb1bb68d6.bindPopup(popup_b0f1d30d23e7a179ca6192ab5b4167f3)
+        ;
+
+        
+    
+    
+            var marker_d9af76631b3a7b68d9d1d917f5ccd288 = L.marker(
+                [51.538673, -3.130637],
+                {
+}
+            ).addTo(marker_cluster_9a3b96fd008f2be39d24827617ac757c);
+        
+    
+        var popup_fc88c8fbf6f413e461a9d4473a57afc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24001d0bf89855bc1020ba8915ad3185 = $(`<div id="html_24001d0bf89855bc1020ba8915ad3185" style="width: 100.0%; height: 100.0%;">     <b>Zing Energy Ltd</b><br>     <a href="https://wearezing.com/" target="_blank">Visit Website</a>     </div>`)[0];
+                popup_fc88c8fbf6f413e461a9d4473a57afc1.setContent(html_24001d0bf89855bc1020ba8915ad3185);
+            
+        
+
+        marker_d9af76631b3a7b68d9d1d917f5ccd288.bindPopup(popup_fc88c8fbf6f413e461a9d4473a57afc1)
+        ;
+
+        
+    
+    
+            marker_cluster_9a3b96fd008f2be39d24827617ac757c.addTo(map_36d6b7d636ce9a3285b33753cec55ca2);
+        
+    
+            tile_layer_68b10ef4d311b7f454cc9498afc61a77.addTo(map_36d6b7d636ce9a3285b33753cec55ca2);
+        
+    
+            marker_cluster_9a3b96fd008f2be39d24827617ac757c.addTo(map_36d6b7d636ce9a3285b33753cec55ca2);
+        
+</script>
+</html>
